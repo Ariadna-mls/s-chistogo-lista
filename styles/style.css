@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #1e1e1e;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-weight: 400;
 }
 
@@ -69,11 +69,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .cover__title {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
     font-size: 72px;
     font-weight: 400;
+    line-height: 100%;
     color: #FFFFFF;
-    width: 100%;
 }
 
 .accent-span {
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .intro {
-    padding: 30px 20px 38px;
+    padding: 0px 20px 38px;
 }
 
 .intro__heading {
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__subtitle {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
     font-size: 28px;
     line-height: 1.15;
     font-weight: 500;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     margin: 32px 0;
     font-size: 20px;
     line-height: 27px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
 }
 
 .content-section__list {
@@ -186,23 +186,29 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .card__author-photo {
     max-width: 100px;
     max-height: 100px;
+    border-radius: 50%;
 }
 
 .card__author-name {
     font-weight: 700;
-    margin: 8px 0 8px;
+    margin: 6px 0 8px;
 }
 
 .card__title {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 1.35;
     margin-bottom: 8px;
 }
 
+.card__text {
+    line-height: 21.6px;
+    padding: 0 2px 0 0;
+}
+
 h4 {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 1.35;
@@ -236,7 +242,7 @@ span {
 }
 
 h1 {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond', 'Times New Roman', serif;
     font-size: 72px;
     font-weight: 500;
     color: white;
